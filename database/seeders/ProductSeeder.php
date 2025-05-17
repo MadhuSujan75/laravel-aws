@@ -33,6 +33,11 @@ class ProductSeeder extends Seeder
                 'metadata' => ['size' => 'A3', 'theme' => 'Artificial Intelligence'],
                 'tags' => ['ai', 'poster', 'wall']
             ],
+              [
+                'name' => 'AI Tester',
+                'metadata' => ['size' => 'A3', 'theme' => 'Artificial Intelligence'],
+                'tags' => ['ai', 'poster', 'wall']
+            ],
         ];
 
         foreach ($products as $product) {
